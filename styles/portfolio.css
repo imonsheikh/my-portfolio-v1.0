@@ -88,11 +88,101 @@ nav a {
 }
 
 /* main section styles  */
-
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+main section {
+  margin-top: 130px;
+}
 /* about section styles  */
 .about {
   padding: 130px;
   border-radius: 10px;
   background: #fff8f3;
   margin: 130px 0;
+}
+
+.about_info_container {
+  display: flex;
+  justify-content: space-around;
+}
+.about_info {
+  text-align: center;
+}
+
+/* skills related styles  */
+#what_i_do_description {
+  padding: 30px 150px;
+}
+.skills_container {
+  display: flex;
+  gap: 24px;
+}
+.skill {
+  padding: 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill_description {
+  color: #757575;
+}
+.resume_column_title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+
+}
+.resume_container{
+  display: flex;
+  gap: 50px;
+}
+.resume_item_institute, .resume_item_description{
+  color: #757575;
+
+}
+.resume_item_institute{
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+.resume_item_title{
+  color: #474747;
+font-size: 25px;
+font-weight: 700;
+margin-bottom: 10px;
+}
+.resume_container hr{
+  margin: 30px;
+}
+
+/* button  */
+.download_cv{
+  text-align: center;
+  margin-top: 50px;
+}
+
+footer{
+  display: flex;
+  gap: 100px;
+  background: #FFF8F3;
+  padding: 130px 200px;
+  margin-top: 100px;
+
+}
+.footer_column{
+  width: 50%;
+}
+.contact input[type="text"], .contact input[type="email"], textarea{
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  color: #757575;
+  border-radius: 5px;
+  background: #fff;
+  border: 0;
+  width: 100%;
+}
+.social_links a{
+margin-right: 25px;
 }
